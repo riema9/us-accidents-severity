@@ -1,5 +1,8 @@
 # 🚗 US Accidents Severity Prediction (AI & Expert Systems)
 
+**Live app:** https://us-accidents-severity-project.streamlit.app
+
+
 ## 📌 Overview
 This project predicts the severity of traffic accidents across the United States using a raw dataset of **7.7 million records**. The goal was to build a robust machine learning pipeline that handles severe class imbalance, optimizes for real-world safety (catching severe crashes), and serves predictions via a modern web interface.
 
