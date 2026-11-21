@@ -8,3 +8,4 @@ shap==0.45.0
 nicegui==1.4.29
 sqlalchemy==2.0.30
 matplotlib==3.8.4
+streamlit==1.36.0
