@@ -1,0 +1,36 @@
+# Data (never commit raw/interim/processed)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+*.csv
+*.parquet
+
+# Model artifacts
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+*.ubj
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.vscode/settings.json
+# Added for public upload
+!models/sampled_xgb.json
+!models/sampled_class_weights.npy
+!models/sampled_meta.json
+!data/interim/sample_1000000_seed42.parquet
+!data/processed/test_sampled.parquet
+kaggle.json
